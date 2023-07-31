@@ -1,7 +1,5 @@
 package com.security.spring.config;
 
-import com.security.spring.user.User;
-import jakarta.servlet.Filter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
