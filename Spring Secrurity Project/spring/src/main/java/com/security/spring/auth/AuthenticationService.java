@@ -20,7 +20,7 @@ public class AuthenticationService {
 
     private final JwtService jwtService;
 
-    private AuthenticationManager authenticationManager;
+    private final AuthenticationManager authenticationManager;
 
     public AuthenticationResponse register(RegisterRequest request) {
         User user = User.builder()
